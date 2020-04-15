@@ -7,14 +7,19 @@ html {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
+.logo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #ff0022!important;
+
+}
+.smilie{
+  position: absolute;
+  font-family: 'Roboto Mono', monospace;
+  transition:2.4s;
+  transform: rotate(410deg);
+  
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
@@ -38,3 +43,8 @@ html {
 	font-size: 12px;
   color: #fff;
 }
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Montez', cursive;
+font-family: 'Press Start 2P', cursive; */
