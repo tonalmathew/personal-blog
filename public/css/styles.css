@@ -21,10 +21,24 @@ html {
   transform: rotate(410deg);
   
 }
-.navbar-nav  li a:hover {
-    color: #1abc9c !important;
+.mainTitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
 }
-
+.mainTitle:hover{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #337ab7;
+  text-decoration: none;
+}
+.contentTitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #337ab7;
+}
 .footer-padding {
 	padding-bottom: 60px;
 }
